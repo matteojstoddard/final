@@ -1,0 +1,37 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:navy;
+}
+li{color: rgb(139, 101, 27); font-style: italic; font-weight: normal;}
+a {color: maroon;
+text-decoration: none;}
+a:hover {
+    text-decoration: underline;
+    font-size: 17px;
+}
+a:visited { 
+    color: blue;
+}
+
+/* custom */
+.bold{ font-weight:bold; font-style: normal;}
+.underline {text-decoration:underline ;}
+.homebackground { 
+    background-image: url('../Images/Hog\ rider.jpeg');
+    background-position: top right;
+}
+.backgroundcolor{ background-color: rgb(114, 122, 123);}
+
+/* all of the boxes */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 50px;
+}
